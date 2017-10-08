@@ -1,14 +1,14 @@
-# DEAD
 
-Library is currently dead, doubt it works at all and if it does there are so many bugs that it needs another rewrite which I'm not wanting to do really, sorry. The fact that we even made a PHP library that interacts with the Discord gateway is kind of a miracle but it is time to say farewell. Thanks to everyone that helped out along the way, especially Aaron (@aequasi). Maybe one day someone can take over and do a rewrite. Much love,
 
-- David
+# DiscordPHP
 
-DiscordPHP
-====
-[![Build Status](https://travis-ci.org/teamreflex/DiscordPHP.svg?branch=master)](https://travis-ci.org/teamreflex/DiscordPHP) [![Discord Chat](https://img.shields.io/badge/chat-Discord%20API-blue.svg)](https://discord.gg/0SBTUU1wZTX4Mjwn) [![PHP Discorders](https://img.shields.io/badge/chat-PHP%20Discord-blue.svg)](https://discord.gg/0duG4FF1ElFGUFVq)
+[![Build Status](https://travis-ci.org/open-code-community/DiscordPHP.svg?branch=master)](https://travis-ci.org/open-code-community/DiscordPHP)
 
 A wrapper for the official [Discord](https://discordapp.com) REST, gateway and voice APIs.
+
+## Notice
+
+This is a fork from teamreflex's Discord API. We'll work on it and improve it, so we're reviving this project kind of.
 
 ## FAQ
 
@@ -23,8 +23,7 @@ DiscordPHP is installed using [Composer](https://getcomposer.org). Make sure you
 
 This library has not been tested with HHVM.
 
-1. Run `composer require team-reflex/discord-php`. This will install the lastest release.
-	- If you would like, you can also install the development branch by running `composer require team-reflex/discord-php dev-develop`.
+1. Run `composer require open-code-community/discord-php`. This will install the lastest release.
 2. Include the Composer autoload file at the top of your main file:
 	- `include __DIR__.'/vendor/autoload.php';`
 3. Make a bot!
